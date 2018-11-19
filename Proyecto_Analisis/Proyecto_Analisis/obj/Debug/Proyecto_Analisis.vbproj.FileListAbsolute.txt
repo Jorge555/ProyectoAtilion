@@ -1,0 +1,188 @@
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\ApplicationInsights.config
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\csc.exe
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\vbc.exe
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\VBCSCompiler.exe
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.dll.config
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.pdb
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Antlr3.Runtime.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.Web.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Newtonsoft.Json.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Helpers.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Mvc.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Optimization.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Razor.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Razor.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\WebGrease.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Antlr3.Runtime.pdb
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.Web.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\Newtonsoft.Json.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Optimization.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Razor.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Razor.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Helpers.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Mvc.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Razor.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Webpages.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Helpers.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Mvc.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.vbprojResolveAssemblyReference.cache
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.Resources.resources
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.vbproj.GenerateResource.Cache
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\curso codigoFacilito\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.pdb
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\ApplicationInsights.config
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\csc.exe
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\vbc.exe
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\VBCSCompiler.exe
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.dll.config
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.pdb
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Antlr3.Runtime.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.Web.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.ApplicationInsights.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Newtonsoft.Json.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Helpers.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Mvc.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Optimization.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Razor.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Deployment.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Razor.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\WebGrease.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Antlr3.Runtime.pdb
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.Web.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.ApplicationInsights.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\Newtonsoft.Json.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Optimization.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Razor.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Deployment.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Razor.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Helpers.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Mvc.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Razor.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Webpages.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Helpers.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Mvc.resources.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.vbprojResolveAssemblyReference.cache
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.Resources.resources
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.vbproj.GenerateResource.Cache
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.dll
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.xml
+C:\Users\alcatraz\Documents\Visual Studio 2015\Projects\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.pdb
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\ApplicationInsights.config
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\csc.exe
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\vbc.exe
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\VBCSCompiler.exe
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.dll.config
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.pdb
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Proyecto_Analisis.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Antlr3.Runtime.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.Web.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Newtonsoft.Json.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Helpers.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Mvc.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Optimization.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Razor.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Razor.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\WebGrease.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Antlr3.Runtime.pdb
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.Web.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\Newtonsoft.Json.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Optimization.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Razor.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Webpages.Razor.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Helpers.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\System.Web.Mvc.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Razor.resources.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Webpages.resources.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Helpers.resources.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\bin\es\System.Web.Mvc.resources.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.vbprojResolveAssemblyReference.cache
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.Resources.resources
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.vbproj.GenerateResource.Cache
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.dll
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.xml
+C:\Users\Public\Proyecto_Analisis\Proyecto_Analisis\obj\Debug\Proyecto_Analisis.pdb

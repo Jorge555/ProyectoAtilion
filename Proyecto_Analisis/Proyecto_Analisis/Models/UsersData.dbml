@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Analisis_BD" Class="UsersDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-CMOK118\SQLEXPRESS;Initial Catalog=Analisis_BD;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="Analisis_BDConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.bodega" Member="bodega">
+    <Type Name="bodega">
+      <Column Name="bod_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="bod_nombre" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="bod_direccion" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Column Name="emp_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ori_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="bodega_documento" Member="documento" ThisKey="bod_id" OtherKey="bod_id" Type="documento" />
+      <Association Name="bodega_inventario" Member="inventario" ThisKey="bod_id" OtherKey="bod_id" Type="inventario" />
+      <Association Name="bodega_orden_compra" Member="orden_compra" ThisKey="bod_id" OtherKey="bod_id" Type="orden_compra" />
+      <Association Name="bodega_traslado" Member="traslado" ThisKey="bod_id" OtherKey="bod_id" Type="traslado" />
+      <Association Name="empresa_bodega" Member="empresa" ThisKey="emp_id" OtherKey="emp_id" Type="empresa" IsForeignKey="true" />
+      <Association Name="origen_bodega" Member="origen" ThisKey="ori_id" OtherKey="ori_id" Type="origen" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.detalle_orden" Member="detalle_orden">
+    <Type Name="detalle_orden">
+      <Column Name="det_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="det_cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="det_precio" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="det_total" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="ord_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="orden_compra_detalle_orden" Member="orden_compra" ThisKey="ord_id" OtherKey="ord_id" Type="orden_compra" IsForeignKey="true" />
+      <Association Name="productos_detalle_orden" Member="productos" ThisKey="pro_id" OtherKey="pro_id" Type="productos" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.detalle_traslado" Member="detalle_traslado">
+    <Type Name="detalle_traslado">
+      <Column Name="detras_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="detras_cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="tra_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="productos_detalle_traslado" Member="productos" ThisKey="pro_id" OtherKey="pro_id" Type="productos" IsForeignKey="true" />
+      <Association Name="traslado_detalle_traslado" Member="traslado" ThisKey="tra_id" OtherKey="tra_id" Type="traslado" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.documento" Member="documento">
+    <Type Name="documento">
+      <Column Name="doc_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="doc_fecha" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="tip_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bod_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="bodega_documento" Member="bodega" ThisKey="bod_id" OtherKey="bod_id" Type="bodega" IsForeignKey="true" />
+      <Association Name="tipo_documento_documento" Member="tipo_documento" ThisKey="tip_id" OtherKey="tip_id" Type="tipo_documento" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.empresa" Member="empresa">
+    <Type Name="empresa">
+      <Column Name="emp_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="emp_nombre" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="emp_direccion" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Column Name="emp_telefono" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Association Name="empresa_bodega" Member="bodega" ThisKey="emp_id" OtherKey="emp_id" Type="bodega" />
+    </Type>
+  </Table>
+  <Table Name="dbo.inventario" Member="inventario">
+    <Type Name="inventario">
+      <Column Name="inv_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="inv_cantidad" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="inv_costo_promedio" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="pro_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="bod_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="bodega_inventario" Member="bodega" ThisKey="bod_id" OtherKey="bod_id" Type="bodega" IsForeignKey="true" />
+      <Association Name="productos_inventario" Member="productos" ThisKey="pro_id" OtherKey="pro_id" Type="productos" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.orden_compra" Member="orden_compra">
+    <Type Name="orden_compra">
+      <Column Name="ord_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ord_nombre" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ord_fecha" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="bod_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="orden_compra_detalle_orden" Member="detalle_orden" ThisKey="ord_id" OtherKey="ord_id" Type="detalle_orden" />
+      <Association Name="bodega_orden_compra" Member="bodega" ThisKey="bod_id" OtherKey="bod_id" Type="bodega" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.origen" Member="origen">
+    <Type Name="origen">
+      <Column Name="ori_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ori_nombre" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="ori_direccion" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Association Name="origen_bodega" Member="bodega" ThisKey="ori_id" OtherKey="ori_id" Type="bodega" />
+    </Type>
+  </Table>
+  <Table Name="dbo.productos" Member="productos">
+    <Type Name="productos">
+      <Column Name="pro_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pro_nombre" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="pro_stock" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_precio" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="pro_descripcion" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Column Name="pro_marca" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Association Name="productos_detalle_orden" Member="detalle_orden" ThisKey="pro_id" OtherKey="pro_id" Type="detalle_orden" />
+      <Association Name="productos_detalle_traslado" Member="detalle_traslado" ThisKey="pro_id" OtherKey="pro_id" Type="detalle_traslado" />
+      <Association Name="productos_inventario" Member="inventario" ThisKey="pro_id" OtherKey="pro_id" Type="inventario" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tipo_documento" Member="tipo_documento">
+    <Type Name="tipo_documento">
+      <Column Name="tip_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tip_nombre" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Association Name="tipo_documento_documento" Member="documento" ThisKey="tip_id" OtherKey="tip_id" Type="documento" />
+    </Type>
+  </Table>
+  <Table Name="dbo.traslado" Member="traslado">
+    <Type Name="traslado">
+      <Column Name="tra_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tra_bodegaEntrada" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Column Name="bod_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="traslado_detalle_traslado" Member="detalle_traslado" ThisKey="tra_id" OtherKey="tra_id" Type="detalle_traslado" />
+      <Association Name="bodega_traslado" Member="bodega" ThisKey="bod_id" OtherKey="bod_id" Type="bodega" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

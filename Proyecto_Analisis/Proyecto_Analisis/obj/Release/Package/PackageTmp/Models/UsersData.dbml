@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="analisisBD" Class="UsersDataDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=DESKTOP-CMOK118\SQLEXPRESS;Initial Catalog=analisisBD;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="analisisBDConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.bodega_central" Member="bodega_central">
+    <Type Name="bodega_central">
+      <Column Name="boc_codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="boc_nombre" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="boc_telefono" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Association Name="bodega_central_inventario_bodega_central" Member="inventario_bodega_central" ThisKey="boc_codigo" OtherKey="boc_codigo" Type="inventario_bodega_central" />
+      <Association Name="bodega_central_orden_bodega_central" Member="orden_bodega_central" ThisKey="boc_codigo" OtherKey="boc_codigo" Type="orden_bodega_central" />
+    </Type>
+  </Table>
+  <Table Name="dbo.bodega_saldos" Member="bodega_saldos">
+    <Type Name="bodega_saldos">
+      <Column Name="bos_codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="bos_descripcion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="suc_codigo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="bodega_saldos_inventario" Member="inventario" ThisKey="bos_codigo" OtherKey="bos_codigo" Type="inventario" />
+      <Association Name="sucursal_bodega_saldos" Member="sucursal" ThisKey="suc_codigo" OtherKey="suc_codigo" Type="sucursal" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.departamento" Member="departamento">
+    <Type Name="departamento">
+      <Column Name="dep_numero" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="dep_nombre" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Association Name="departamento_municipio" Member="municipio" ThisKey="dep_numero" OtherKey="dep_numero" Type="municipio" />
+    </Type>
+  </Table>
+  <Table Name="dbo.empleado" Member="empleado">
+    <Type Name="empleado">
+      <Column Name="emp_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="emp_nombre" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="emp_apellido" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="emp_direccion" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="emp_telefono" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Association Name="empleado_usuarios" Member="usuarios" ThisKey="emp_id" OtherKey="emp_id" Type="usuarios" />
+      <Association Name="empleado_venta" Member="venta" ThisKey="emp_id" OtherKey="emp_id" Type="venta" />
+    </Type>
+  </Table>
+  <Table Name="dbo.factura" Member="factura">
+    <Type Name="factura">
+      <Column Name="fac_numero" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="fac_fecha" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="fac_nit" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="suc_codigo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="factura_venta" Member="venta" ThisKey="fac_numero" OtherKey="fac_numero" Type="venta" />
+      <Association Name="sucursal_factura" Member="sucursal" ThisKey="suc_codigo" OtherKey="suc_codigo" Type="sucursal" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.inventario" Member="inventario">
+    <Type Name="inventario">
+      <Column Name="inv_codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="bos_codigo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="pro_codigo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="inventario_orden_bodega_central" Member="orden_bodega_central" ThisKey="inv_codigo" OtherKey="inv_codigo" Type="orden_bodega_central" />
+      <Association Name="bodega_saldos_inventario" Member="bodega_saldos" ThisKey="bos_codigo" OtherKey="bos_codigo" Type="bodega_saldos" IsForeignKey="true" />
+      <Association Name="producto_inventario" Member="producto" ThisKey="pro_codigo" OtherKey="pro_codigo" Type="producto" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.inventario_bodega_central" Member="inventario_bodega_central">
+    <Type Name="inventario_bodega_central">
+      <Column Name="ibc_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="boc_codigo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="bodega_central_inventario_bodega_central" Member="bodega_central" ThisKey="boc_codigo" OtherKey="boc_codigo" Type="bodega_central" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.municipio" Member="municipio">
+    <Type Name="municipio">
+      <Column Name="mun_numero" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="mun_nombre" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="dep_numero" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="municipio_sucursal" Member="sucursal" ThisKey="mun_numero" OtherKey="mun_numero" Type="sucursal" />
+      <Association Name="departamento_municipio" Member="departamento" ThisKey="dep_numero" OtherKey="dep_numero" Type="departamento" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.orden_bodega_central" Member="orden_bodega_central">
+    <Type Name="orden_bodega_central">
+      <Column Name="id_orden" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="inv_codigo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="boc_codigo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="bodega_central_orden_bodega_central" Member="bodega_central" ThisKey="boc_codigo" OtherKey="boc_codigo" Type="bodega_central" IsForeignKey="true" />
+      <Association Name="inventario_orden_bodega_central" Member="inventario" ThisKey="inv_codigo" OtherKey="inv_codigo" Type="inventario" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.producto" Member="producto">
+    <Type Name="producto">
+      <Column Name="pro_codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="pro_nombre" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="pro_descripcion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="pro_costo" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="producto_inventario" Member="inventario" ThisKey="pro_codigo" OtherKey="pro_codigo" Type="inventario" />
+    </Type>
+  </Table>
+  <Table Name="dbo.sucursal" Member="sucursal">
+    <Type Name="sucursal">
+      <Column Name="suc_codigo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="suc_nombre" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="suc_telefono" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="mun_numero" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="sucursal_bodega_saldos" Member="bodega_saldos" ThisKey="suc_codigo" OtherKey="suc_codigo" Type="bodega_saldos" />
+      <Association Name="sucursal_factura" Member="factura" ThisKey="suc_codigo" OtherKey="suc_codigo" Type="factura" />
+      <Association Name="municipio_sucursal" Member="municipio" ThisKey="mun_numero" OtherKey="mun_numero" Type="municipio" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tipo_venta" Member="tipo_venta">
+    <Type Name="tipo_venta">
+      <Column Name="tiv_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tiv_descripcion" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="tiv_porcentaje" Type="System.String" DbType="VarChar(5)" CanBeNull="true" />
+      <Column Name="cli_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ven_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="venta_tipo_venta" Member="venta" ThisKey="ven_id" OtherKey="ven_id" Type="venta" IsForeignKey="true" />
+      <Association Name="cliente_tipo_venta" Member="cliente" ThisKey="cli_id" OtherKey="cli_id" Type="cliente" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.usuarios" Member="usuarios">
+    <Type Name="usuarios">
+      <Column Name="usu_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="usu_user" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="usu_password" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="usu_rol" Type="System.String" DbType="VarChar(45)" CanBeNull="true" />
+      <Column Name="emp_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="empleado_usuarios" Member="empleado" ThisKey="emp_id" OtherKey="emp_id" Type="empleado" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.venta" Member="venta">
+    <Type Name="venta">
+      <Column Name="ven_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ven_total" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="fac_numero" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="emp_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="venta_tipo_venta" Member="tipo_venta" ThisKey="ven_id" OtherKey="ven_id" Type="tipo_venta" />
+      <Association Name="empleado_venta" Member="empleado" ThisKey="emp_id" OtherKey="emp_id" Type="empleado" IsForeignKey="true" />
+      <Association Name="factura_venta" Member="factura" ThisKey="fac_numero" OtherKey="fac_numero" Type="factura" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.cliente" Member="cliente">
+    <Type Name="cliente">
+      <Column Name="cli_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="cli_nombre" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cli_apellido" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cli_direccion" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="cli_telefono" Type="System.String" DbType="VarChar(8)" CanBeNull="true" />
+      <Association Name="cliente_tipo_venta" Member="tipo_venta" ThisKey="cli_id" OtherKey="cli_id" Type="tipo_venta" />
+    </Type>
+  </Table>
+</Database>
